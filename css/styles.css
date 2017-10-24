@@ -1,0 +1,160 @@
+/*site wide styles*/
+p {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: 'Courgette', cursive;
+  font-size: 2em;
+}
+
+img {
+  padding: 20px;
+}
+
+/*end sitewide styles*/
+
+/*navigation*/
+.top-nav {
+  background-color: #212121;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index:1000;
+}
+nav ul {
+  color: #ff9800;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav li {
+  display:inline;
+  font-size: 1.5em;
+}
+
+/*nav link styles*/
+li a {
+  color: #ff9800;
+  padding: 4px 6px;
+  margin: 0px 20px 0px 20px;
+}
+
+li a:hover {
+  color: white;
+}
+
+/*navigation header*/
+li h3 {
+  font-style: italic;
+  font-family: 'Alex Brush',cursive;
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+}
+/*end navigation styles*/
+
+/*footer*/
+footer {
+  background-color: #0d1b52;
+  text-align: center;
+  min-height: 200px;
+}
+/*end footer styles*/
+
+/*home page sections*/
+/*intro section*/
+.intro-top {
+  background-color: #0d1b52;
+  color: white;
+  padding-top: 50px;
+}
+
+.intro-top h1 {
+  font-family: 'Courgette', cursive;
+  font-style: italic;
+  font-size: 3.5em;
+}
+
+.intro-top p {
+  padding-top: 10px;
+  max-width: 90%;
+}
+
+
+/*experience section*/
+.intro-experience {
+  background-color: #90b6d8;
+  color: black;
+  padding-bottom: 20px;
+}
+.intro-experience h2,h3,h4 {
+  text-align: center;
+}
+.intro-experience p {
+  padding-top: 20px;
+}
+/*education section*/
+.intro-education {
+  background-color: #b8cbe3;
+  color: black;
+  padding-bottom: 20px;
+}
+.intro-education h2 {
+  text-align: center;
+}
+
+
+/*Media queries*/
+@media only screen and (max-width: 991px) {
+  .intro-top {
+    text-align: center;
+    padding-top: 75px;
+  }
+  .intro-top p {
+    max-width: 100%;
+  }
+  .intro-experience p {
+    text-align: center;
+  }
+  .intro-education p {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .active {
+    background-color: #4d5460;
+    padding: 13px 0px 8px 0px;
+  }
+  li a:hover:not(.active) {
+    color: #ff9800;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .intro-top {
+    text-align: center;
+    padding-top: 100px;
+  }
+  li h3 {
+    font-style: italic;
+    font-family: 'Alex Brush',cursive;
+    color: white;
+    font-size: 1em;
+    margin: 0;
+  }
+  li a {
+    margin: 30px 0 0 0;
+  }
+  img {
+    max-width: 60%;
+    max-height: 60%;
+  }
+}
+/*end media queries*/
