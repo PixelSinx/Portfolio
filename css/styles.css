@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush|Courgette|Roboto+Slab');
 
+hr {
+  border-top: 3px double #0d1b52;
+  width: 80%;
+}
+
 /*site wide styles*/
 p {
   font-size: 1.3em;
@@ -48,6 +53,11 @@ li a {
   color: #ff9800;
   padding: 4px 6px;
   margin: 0px 20px 0px 20px;
+}
+
+li a:visited {
+  color: #ff9800;
+  text-decoration: none;
 }
 
 li a:hover {
@@ -105,7 +115,8 @@ footer a:hover {
 .intro-experience {
   background-color: #90b6d8;
   color: black;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .intro-experience h2,h3,h4 {
   text-align: center;
@@ -117,10 +128,42 @@ footer a:hover {
 .intro-education {
   background-color: #b8cbe3;
   color: black;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .intro-education h2 {
   text-align: center;
+}
+
+/*Project page styles*/
+.project-section {
+  background-color: #90b6d8;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*end project page styles*/
+
+/*contact page styles*/
+.contact-section {
+  background-color: #90b6d8;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-section .form-group {
+  max-width: 40%;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.contact-section .form-button {
+  text-align: right;
+  max-width: 70%;
+  padding-top: 25px;
 }
 
 /*Media queries*/
@@ -135,6 +178,24 @@ footer a:hover {
   .intro-experience p {
     text-align: center;
   }
+  .project-section p {
+    text-align: center;
+  }
+  .project-section {
+    text-align: center;
+    padding-top: 75px;
+  }
+  .contact-section p {
+    text-align: center;
+  }
+  .contact-section {
+    padding-top: 75px;
+  }
+  .contact-section .form-button {
+    text-align: center;
+    max-width: 100%;
+  }
+
   .intro-education p {
     text-align: center;
   }
@@ -167,5 +228,10 @@ footer a:hover {
     max-width: 60%;
     max-height: 60%;
   }
+  .contact-section .form-group {
+    max-width: 80%;
+    margin: auto;
+  }
+
 }
 /*end media queries*/
