@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!--
+Name: Brody Holmer
+Description: Home page for my personal portfolio. It display information about my experience, education background and a little more info about me.
+Last Update: 10/24/17
+-->
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brody Holmer | Contact</title>
+</head>
+<!--Nav bar that follows screen scrolling -->
+<body>
+    <div class="top-nav row">
+      <nav>
+        <ul>
+          <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-6 col-md-offset-0">
+            <li><h3>Brody Holmer Portfolio</h3></li>
+          </div>
+          <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-6 col-md-offset-0">
+            <!--Change which link is active based on current active section -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </div>
+      </ul>
+    </nav>
+</div>
+<!--Top section with introduction -->
+<section class="intro-top">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-md-offset-0 col-md-12 text-center">
+      <h1>Contact</h1>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Contacts section -->
+<section class="contact-section" id="contact-form">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-md-offset-0 col-md-12">
+  <form action="script/contact.php" method="POST">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input name="name" type="name" class="form-control" id="name" placeholder="John Smith" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com" required>
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input name="subject" type="subject" class="form-control" id="subject" placeholder="Website Design" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea name="message" type="message" class="form-control" id="message" rows="5" placeholder="Message details" required></textarea>
+    </div>
+    <div class="form-button">
+    <button type="submit" class="btn btn-default">Submit</button>
+  </div>
+  </form>
+</div>
+</div>
+</div>
+</section>
+
+<!--Footer with links and more info -->
+<footer>
+  <div class="container-fluid">
+  <div class="row">
+    <nav>
+      <ul>
+          <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-12 col-md-offset-0">
+            <h3>Come check out my <a href="https://www.linkedin.com/in/brody-holmer-358371143/">LinkedIn</a> Profile, or browse through my <a href="https://github.com/PixelSinx">GitHub</a> Repositories!</h3>
+            <p><a href="mailto:1bholmer@gmail.com" target="_blank" class="text-center">1bholmer@gmail.com</a></p>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script> src="script/script.js"</script>
+</body>
+</html>
