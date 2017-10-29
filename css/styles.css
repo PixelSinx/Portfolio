@@ -166,6 +166,11 @@ footer a:hover {
   padding-top: 25px;
 }
 
+#success {
+  text-align: center;
+
+}
+
 /*Media queries*/
 @media only screen and (max-width: 991px) {
   .intro-top {

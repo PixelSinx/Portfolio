@@ -11,3 +11,11 @@ document.getElementById(id).addEventListener('keyup', function() {
 }
 
 expandTextarea('message');
+
+
+$(document).ready(function() {
+  var hash = window.location.hash.replace('#', '');
+  if (hash) {
+      document.getElementById(hash).style.display = 'block'
+  }
+});
