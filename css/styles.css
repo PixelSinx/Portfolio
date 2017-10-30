@@ -166,9 +166,13 @@ footer a:hover {
   padding-top: 25px;
 }
 
+ .contact-section textarea {
+   padding-top: 10px;
+   padding-bottom: 25px;
+ }
+
 #success {
   text-align: center;
-
 }
 
 /*Media queries*/
