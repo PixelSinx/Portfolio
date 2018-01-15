@@ -1,3 +1,5 @@
+<!--php script that sends a completed contact for to the recipients email inbox
+-->
 <?php $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];

@@ -24,7 +24,6 @@ h3 {
 img {
   padding: 30px;
 }
-
 /*end sitewide styles*/
 
 /*navigation*/
@@ -88,7 +87,6 @@ footer a {
 footer a:hover {
   color: white;
 }
-
 /*end footer styles*/
 
 /*home page sections*/
@@ -142,7 +140,6 @@ footer a:hover {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 /*end project page styles*/
 
 /*contact page styles*/
@@ -204,7 +201,6 @@ footer a:hover {
     text-align: center;
     max-width: 100%;
   }
-
   .intro-education p {
     text-align: center;
   }
@@ -218,6 +214,7 @@ footer a:hover {
     color: #ff9800;
   }
 }
+/* mobile media styles */
 @media only screen and (max-width: 767px) {
   .intro-top {
     text-align: center;
@@ -240,6 +237,5 @@ footer a:hover {
     max-width: 80%;
     margin: auto;
   }
-
 }
 /*end media queries*/
