@@ -28,7 +28,7 @@ img {
 
 /*navigation*/
 .top-nav {
-  background-color: #212121;
+  background-color: #000f26;
   position: fixed;
   top: 0;
   right: 0;
@@ -207,7 +207,7 @@ footer a:hover {
 }
 @media only screen and (min-width: 992px) {
   .active {
-    background-color: #4d5460;
+    background-color: #061c3d;
     padding: 13px 0px 8px 0px;
   }
   li a:hover:not(.active) {
